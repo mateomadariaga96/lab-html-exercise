@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+	padding: 0 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+	width: 600px;
+  }
+  
+  nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  nav a {
+	text-decoration: none;
+	color: black;
+  }
+  
+  .blackHeart {
+	width: 20px;
+	margin-right: 1rem;
+  }
+
+  #search-packages {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: strech;
+	align-content: stretch;
+	
+  }
+
+  #search-packages > .button {
+	  background-color: #fb3e44;
+  
+  }
+
+  #search-packages > div > .link-btn {
+	  color: black;
+  }
+
+  #search-packages .value {
+	  color: white
+  }
+   
+
+  #bottom-links {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: space-between;
+
+  }
+
+  #section-1 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center; 
+	background-color: rgba(232,217,217,.3);
+	height: 600px 
+  }
+
+#section-1 > div > .link-btn {
+	background-color: #FB3B49 ;
+	padding: 10px 30px 10px 30px;
+	margin: 15px 10px 10px 10px;
+	color: white;
+	box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+
+}
+
+#section-1 > article {
+	width: 500px;
+	text-align: center;
+}
+
+#section-1 > div > .link-btn1 {
+	padding: 10px 30px 10px 30px;
+	margin: 15px 10px 10px 10px;
+	color: black;
+}
+
+#section-2 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	height: 600px;
+}
+
+#section-2 > article {
+	width: 500px;
+	text-align: center;
+}
+
+#section-2 > h2 {
+	background-color:  rgba(255,204,53,.4);
+	transform: skew(9deg,0deg);
+	margin: 20px 10px;
+	font-style: italic;
+}
+
+#section-3 > div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+	text-align: left;
+
+}
+
+#section-3 > div > .service-box {
+	width: 300px;
+	margin: 10px 10px;
+
+}
+
+#section-3 > .link-btn2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	padding: 10px 30px 10px 30px;
+	margin: 15px 10px 10px 10px;
+	box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+	color: white;
+
+}
+
+#section-3 > h4 {
+	color: #ED1C24
+}
+
+
